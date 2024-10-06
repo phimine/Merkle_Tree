@@ -36,8 +36,6 @@
       └─ 叶子3：dfbe3e504ac4e35541bebad4d0e7574668e16fefa26cd4172f93e18b59ce9486
 ```
 
-![生成Merkle Tree](./img/36-3.png)
-
 ## `Merkle Proof`验证
 通过网站，我们可以得到`地址0`的`proof`如下，即图2中蓝色结点的哈希值：
 ```solidity
@@ -46,8 +44,6 @@
   "0x4726e4102af77216b09ccd94f40daa10531c87c4d60bba7f3b3faf5ff9f19b3c"
 ]
 ```
-![Merkle Proof](./img/36-4.png)
-
 我们利用`MerkleProof`库来验证：
 
 ```solidity
